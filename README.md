@@ -12,10 +12,19 @@ If you are on fedora you should issue the following command before you dive in.
 sudo yum groupinstall development-tools -y
 ```
 
-The examples and how to build them.
+Created top level *Makefile* to compile everything at once and allow cleanup!
 
 ``` bash
-#hello_world.c
+# To build everything
+make
+# To clean everything
+make clean
+```
+
+Individual examples and how to build them.
+
+``` bash
+#hello_world/hello_world.c
 CFLAGS="-Wall" make hello_world && ./hello_world
 ```
 
