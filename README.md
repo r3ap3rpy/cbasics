@@ -20,11 +20,3 @@ make
 # To clean everything
 make clean
 ```
-
-Individual examples and how to build them.
-
-``` bash
-#hello_world/hello_world.c
-CFLAGS="-Wall" make hello_world && ./hello_world
-```
-
