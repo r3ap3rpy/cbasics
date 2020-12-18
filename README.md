@@ -71,4 +71,18 @@ TYPE NAME(ARG1, ARG2, ..) {
 	CODE;
 	return VALUE;
 }
+// NEW TYPE
+typedef DEFINITION IDENTIFIER;
+// STRUCT
+struct NAME {
+	ELEMENTS;
+} [VARIABLE_NAME];
+// NEW STRUCT
+typedef struct [STRUCT_NAME] {
+	ELEMENTS;
+} IDENTIFIER;
+// UNION
+union NAME {
+	ELEMENTS;
+} [VARIABLE_NAME];
 ```
